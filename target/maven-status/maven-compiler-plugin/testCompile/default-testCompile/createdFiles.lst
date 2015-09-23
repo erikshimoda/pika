@@ -1,0 +1,4 @@
+com\pika\test\mvc\AccountControllerTest.class
+com\pika\test\mvc\BlogControllerTest.class
+com\pika\test\core\repositories\AccountRepoTest.class
+com\pika\test\mvc\BlogEntryControllerTest.class
