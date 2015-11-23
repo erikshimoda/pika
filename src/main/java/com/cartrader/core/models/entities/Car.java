@@ -31,13 +31,21 @@ public class Car {
 	private int year;
 
 	@ManyToOne(cascade=CascadeType.ALL)
-	@JoinColumn(name="FK1_AUTOMAKER")
+	@JoinColumn(name="FK1_AUTOMAKER", referencedColumnName="id")
 	private CarAutomaker carAutomaker;
 	
 	@ManyToOne(cascade=CascadeType.ALL)
-	@JoinColumn(name="FK2_MODEL")
+	@JoinColumn(name="FK2_MODEL", referencedColumnName="id")
 	private CarModel carModel;
 	
+	@ManyToOne(cascade=CascadeType.ALL)
+	@JoinColumn(name="FK3_FUEL", referencedColumnName="id")
+	private CarFuel carFuel;
+
+	@ManyToOne(cascade=CascadeType.ALL)
+	@JoinColumn(name="FK4_GEAR", referencedColumnName="id")
+	private CarGear carGear;
+
 	public int getId() {
 		return id;
 	}

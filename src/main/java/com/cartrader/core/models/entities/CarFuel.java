@@ -11,32 +11,32 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="GEAR")
-public class CarGear {
+@Table(name="FUEL")
+public class CarFuel {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
 
-	@Column(length = 20, nullable = false)
-	private String gear;
+	@Column(length = 30, nullable = false)
+	private String fuel;
 
-	@OneToMany(mappedBy="carGear")
-	private List<Car> cars;
-	
 	public Integer getId() {
 		return id;
 	}
+	
+	@OneToMany(mappedBy="carFuel")
+	private List<Car> cars;
 
 	public void setId(Integer id) {
 		this.id = id;
 	}
 
-	public String getGear() {
-		return gear;
+	public String getFuel() {
+		return fuel;
 	}
 
-	public void setGear(String gear) {
-		this.gear = gear;
+	public void setFuel(String fuel) {
+		this.fuel = fuel;
 	}
 
 	public List<Car> getCars() {

@@ -1,14 +1,17 @@
 package com.cartrader.core.models.entities;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "CAR_AUTOMAKER")
+@Table(name = "AUTOMAKER")
 public class CarAutomaker {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -16,6 +19,9 @@ public class CarAutomaker {
 	
 	@Column(length = 80, nullable = false)
 	private String automaker;
+	
+	@OneToMany(mappedBy="carAutomaker")
+	private List<Car> cars;
 
 	public Integer getId() {
 		return id;
@@ -31,5 +37,13 @@ public class CarAutomaker {
 
 	public void setAutomaker(String automaker) {
 		this.automaker = automaker;
+	}
+
+	public List<Car> getCars() {
+		return cars;
+	}
+
+	public void setCars(List<Car> cars) {
+		this.cars = cars;
 	}
 }

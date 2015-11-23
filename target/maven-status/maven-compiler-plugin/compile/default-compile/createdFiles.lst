@@ -5,8 +5,8 @@ com\cartrader\core\models\entities\Car.class
 com\cartrader\core\repositories\BlogEntryRepo.class
 com\cartrader\core\security\UserDetailServiceImpl.class
 com\cartrader\rest\resources\asm\BlogEntryResourceAsm.class
-com\cartrader\core\services\BlogService.class
 com\cartrader\rest\mvc\AccountController.class
+com\cartrader\core\services\BlogService.class
 com\cartrader\rest\resources\AccountResource.class
 com\cartrader\rest\resources\asm\BlogResourceAsm.class
 com\cartrader\core\models\entities\Blog.class
@@ -44,6 +44,7 @@ com\cartrader\core\repositories\AccountRepo.class
 com\cartrader\rest\resources\asm\BlogListResourceAsm.class
 com\cartrader\rest\mvc\BlogEntryController.class
 com\cartrader\rest\exceptions\NotFoundException.class
+com\cartrader\core\models\entities\CarFuel.class
 com\cartrader\core\repositories\jpa\JpaBlogEntryRepo.class
 com\cartrader\core\models\entities\Address.class
 com\cartrader\core\models\entities\BlogEntry.class
