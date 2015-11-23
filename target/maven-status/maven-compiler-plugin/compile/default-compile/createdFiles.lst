@@ -11,13 +11,13 @@ com\cartrader\rest\resources\AccountResource.class
 com\cartrader\rest\resources\asm\BlogResourceAsm.class
 com\cartrader\core\models\entities\Blog.class
 com\cartrader\core\services\impl\AccountServiceImpl.class
-com\cartrader\core\models\entities\Automaker.class
 com\cartrader\core\security\AuthFailure.class
 com\cartrader\core\security\AccountUserDetails$1.class
 com\cartrader\core\security\AccountUserDetails.class
 com\cartrader\core\services\impl\BlogEntryServiceImpl.class
 com\cartrader\rest\resources\asm\AccountResourceAsm.class
 com\cartrader\rest\resources\asm\AccountListResourceAsm.class
+com\cartrader\core\models\entities\CarModel.class
 com\cartrader\core\services\util\AccountList.class
 com\cartrader\core\services\exceptions\AccountExistsException.class
 com\cartrader\rest\exceptions\ConflictException.class
@@ -28,6 +28,8 @@ com\cartrader\core\models\entities\Country.class
 com\cartrader\core\models\entities\Status.class
 com\cartrader\rest\mvc\BlogController.class
 com\cartrader\core\services\util\BlogEntryList.class
+com\cartrader\core\models\entities\CarAutomaker.class
+com\cartrader\core\models\entities\CarGear.class
 com\cartrader\core\security\SecurityWebAppInitializer.class
 com\cartrader\rest\resources\BlogEntryResource.class
 com\cartrader\core\models\entities\user.class
@@ -45,7 +47,6 @@ com\cartrader\core\repositories\jpa\JpaBlogEntryRepo.class
 com\cartrader\core\models\entities\Address.class
 com\cartrader\core\models\entities\BlogEntry.class
 com\cartrader\rest\resources\AccountListResource.class
-com\cartrader\core\models\entities\Gear.class
 com\cartrader\rest\exceptions\ForbiddenException.class
 com\cartrader\core\models\entities\State.class
 com\cartrader\rest\resources\BlogEntryListResource.class
@@ -55,5 +56,4 @@ com\cartrader\core\services\exceptions\BlogExistsException.class
 com\cartrader\core\services\util\BlogList.class
 com\cartrader\rest\resources\asm\BlogEntryListResourceAsm.class
 com\cartrader\core\security\EntryPointUnauthorizedHandler.class
-com\cartrader\core\models\entities\Model.class
 com\cartrader\rest\resources\BlogResource.class

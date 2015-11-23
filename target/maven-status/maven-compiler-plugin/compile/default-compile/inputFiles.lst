@@ -1,6 +1,6 @@
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Account.java
-C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Model.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\services\exceptions\BlogNotFoundException.java
+C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\CarAutomaker.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\security\SecurityWebAppInitializer.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Car.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Status.java
@@ -23,13 +23,11 @@ C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\exceptions
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\services\BlogService.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\security\AccountUserDetails.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\exceptions\ConflictException.java
-C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Automaker.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\repositories\jpa\JpaBlogRepo.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\resources\asm\BlogResourceAsm.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\City.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\resources\asm\BlogListResourceAsm.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\repositories\BlogEntryRepo.java
-C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Gear.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\resources\BlogListResource.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\resources\asm\BlogEntryListResourceAsm.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\services\exceptions\BlogExistsException.java
@@ -39,6 +37,7 @@ C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\services\e
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\resources\asm\AccountListResourceAsm.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\repositories\AccountRepo.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\services\util\BlogEntryList.java
+C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\CarModel.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Country.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\services\impl\BlogServiceImpl.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\resources\AccountListResource.java
@@ -46,6 +45,7 @@ C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\services\i
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\exceptions\BadRequestException.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Address.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Blog.java
+C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\CarGear.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\resources\AccountResource.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\repositories\jpa\JpaAccountRepo.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\services\util\AccountList.java
