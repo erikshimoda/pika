@@ -14,7 +14,7 @@ public class CarGear {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
 
-	@Column
+	@Column(length = 20, nullable = false)
 	private String gear;
 
 	public Integer getId() {

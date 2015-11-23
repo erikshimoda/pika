@@ -12,6 +12,7 @@ com\cartrader\rest\resources\asm\BlogResourceAsm.class
 com\cartrader\core\models\entities\Blog.class
 com\cartrader\core\services\impl\AccountServiceImpl.class
 com\cartrader\core\security\AuthFailure.class
+com\cartrader\core\models\entities\Destination.class
 com\cartrader\core\security\AccountUserDetails$1.class
 com\cartrader\core\security\AccountUserDetails.class
 com\cartrader\core\services\impl\BlogEntryServiceImpl.class
@@ -47,12 +48,14 @@ com\cartrader\core\repositories\jpa\JpaBlogEntryRepo.class
 com\cartrader\core\models\entities\Address.class
 com\cartrader\core\models\entities\BlogEntry.class
 com\cartrader\rest\resources\AccountListResource.class
+com\cartrader\core\models\entities\Invoice.class
 com\cartrader\rest\exceptions\ForbiddenException.class
 com\cartrader\core\models\entities\State.class
 com\cartrader\rest\resources\BlogEntryListResource.class
 com\cartrader\core\repositories\jpa\JpaAccountRepo.class
 com\cartrader\core\repositories\jpa\JpaBlogRepo.class
 com\cartrader\core\services\exceptions\BlogExistsException.class
+com\cartrader\core\models\entities\Vessel.class
 com\cartrader\core\services\util\BlogList.class
 com\cartrader\rest\resources\asm\BlogEntryListResourceAsm.class
 com\cartrader\core\security\EntryPointUnauthorizedHandler.class

@@ -1,6 +1,7 @@
 package com.cartrader.core.models.entities;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,9 +18,17 @@ public class Car {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
 
+	@Column(length = 40, nullable = false)
 	private String color;
+	
+	@Column(length = 40, nullable = false)
 	private String chassis;
-	private String mileage;
+	
+	@Column(length = 6, nullable = false)
+	private int mileage;
+	
+	@Column(length = 4, nullable = false)
+	private int year;
 
 	@ManyToOne(cascade=CascadeType.ALL)
 	@JoinColumn(name="FK1_AUTOMAKER")
@@ -49,11 +58,11 @@ public class Car {
 		this.chassis = chassis;
 	}
 
-	public String getMileage() {
+	public int getMileage() {
 		return mileage;
 	}
 
-	public void setMileage(String mileage) {
+	public void setMileage(int mileage) {
 		this.mileage = mileage;
 	}
 

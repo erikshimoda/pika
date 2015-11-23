@@ -22,7 +22,9 @@ C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\ent
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\exceptions\ForbiddenException.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\services\BlogService.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\security\AccountUserDetails.java
+C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Destination.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\exceptions\ConflictException.java
+C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Vessel.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\repositories\jpa\JpaBlogRepo.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\resources\asm\BlogResourceAsm.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\City.java
@@ -48,6 +50,7 @@ C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\ent
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\CarGear.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\rest\resources\AccountResource.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\repositories\jpa\JpaAccountRepo.java
+C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\models\entities\Invoice.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\services\util\AccountList.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\services\AccountService.java
 C:\Projects\java\workspace\cartrader\src\main\java\com\cartrader\core\security\SecurityConfig.java
